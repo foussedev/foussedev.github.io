@@ -43,4 +43,6 @@ function loop1(){
 
 }
 
-loop1();
+var imgs=document.getElementById("img-profil");
+
+imgs.addEventListener("load", loop1);
