@@ -43,9 +43,5 @@ function loop1(){
 
 }
 
-var imgs=document.getElementById("img-profil");
 
-//imgs.addEventListener("load", loop1);
-setInterval("loop1()",500)
-//window.onload=loop1();
-//loop1();
+loop1();
