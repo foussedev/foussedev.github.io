@@ -43,5 +43,4 @@ function loop1(){
     looper1=setTimeout('loop1()',10);
 
 }
-
-loop1();
+(window).load(loop1(); });
