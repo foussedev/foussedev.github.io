@@ -43,4 +43,4 @@ function loop1(){
     looper1=setTimeout('loop1()',10);
 
 }
-(window).load(loop1(); });
+(window).load(function() { looper1(); });
